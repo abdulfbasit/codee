@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>z  
+  <title>LinkedIn Homepage</title>
+  <style>
+    /* Reset default margin/padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f3f2ef;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      background-color: white;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      color: #0a66c2;
+      font-size: 28px;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-size: 14px;
+    }
+
+    header nav a:hover {
+      color: #0a66c2;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    /* Form */
+    .login-form {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-form button:hover {
+      background-color: #004182;
+    }
+
+    .signup {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .signup a {
+      color: #0a66c2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>LinkedIn</h1>
+    <nav>
+      <a href="#">Join now</a>
+      <a href="#">Sign in</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to your professional community</h2>
+      <p>Connect with colleagues, find jobs, and build your career.</p>
+    </div>
+
+    <div class="login-form">
+      <h3>Sign in</h3>
+      <input type="email" placeholder="Email or Phone">
+      <input type="password" placeholder="Password">
+      <button>Sign in</button>
+      <div class="signup">
+        New to LinkedIn? <a href="#">Join now</a>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
