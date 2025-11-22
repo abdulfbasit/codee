@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fff8f0;
+      color: #5a4a42;
+    }
+
+    header {
+      padding: 20px;
+      background: #ffe9d6;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .banner {
+      height: 70vh;
+      background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover no-repeat;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      background: rgba(255, 236, 220, 0.7);
+      top: 0; left: 0;
+      right: 0; bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .overlay h1 {
+      font-size: 3rem;
+      margin: 0 0 20px;
+    }
+
+    .overlay button {
+      padding: 12px 25px;
+      background: #5a4a42;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Abdulbasit Boutique</header>
+
+  <div class="banner">
+    <div class="overlay">
+      <h1>Handcrafted Goods Made With Love</h1>
+      <button>Shop Now</button>
+    </div>
+  </div>
+</body>
+</html>
